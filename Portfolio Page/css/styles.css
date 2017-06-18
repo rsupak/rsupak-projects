@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  color: black;
+  text-align: center;
+}
+nav select {
+  display: none;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  background-color: #333;
+  text-align: left;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+nav ul li:last-child {
+  float:right;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #1054E5;
+}
+
+.intro {
+  background: linear-gradient(-30deg, white, silver, grey, black);
+  min-height: 80vh;
+  padding-top: 30vh;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 auto;
+  background-color: white;
+  padding-top: 10vh;
+}
+.top-portion-left {
+  background-color: transparent;
+  margin-right: 65%;
+}
+
+.top-portion-right {
+  margin-left: 35%;
+  margin-top: -30%;
+}
+.pic {
+  max-height: 250px;
+  max-width: 100%;
+  border-radius: 5%;
+}
+.white-text {
+  color: white;
+}
+.fav-list {
+  background: linear-gradient(210deg, white, silver, grey);
+  min-height: 80vh;
+  padding-top: 10vh;
+}
+.fav-padding {
+  padding-bottom: 10vh;
+}
+.list {
+  font-size: 20px;
+}
+.list-padding {
+  padding-top: 1vh;
+  padding-bottom: 5vh;
+}
+.contact-padding {
+  padding-bottom: 5vh;
+}
+.linkimg {
+  max-height: 50px;
+  max-width: 100%;
+}
+footer {
+  text-align: center;
+}
+
+
+/*styles for responsive menu
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+    #ddmenu li div.column.mayHide {
+        display: none;
+    }
+    #ddmenu ul {
+        width: 100%;
+        border-radius: 0;
+    }
+    #ddmenu li {
+        position:relative;
+	    width:33.33%;
+        box-sizing:border-box;
+        text-align: left;
+        border-top:1px solid rgba(255,255,255,0.3);
+        border-right:1px solid rgba(255,255,255,0.3);
+    }
+    #ddmenu li.full-width {
+        position: relative;
+    }
+    #ddmenu div.dropdown {
+        width: auto;
+        left: 0px;
+        text-align: left;
+    }
+    #ddmenu li.full-width div.dropdown {
+        width: auto;
+    }
+    #ddmenu div.dropdown.right-aligned, #ddmenu div.dropdown.mayRight {
+        left: auto;
+        right: 0px;
+    }
+    #ddmenu li div.column {
+        width: auto;
+        border: none;
+    }
+}
+*/
